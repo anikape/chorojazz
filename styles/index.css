@@ -1,0 +1,437 @@
+.header-container {
+  background-image: url("../assets/headerBg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 776px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.5rem;
+  position: relative;
+}
+
+.logo-header {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  width: 622px;
+}
+
+.navigation {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-nav ul li img {
+  padding-right: 1rem;
+}
+
+.left-nav a {
+  color: #000;
+  font-family: Montserrat, sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 94%;
+  letter-spacing: -0.35px;
+}
+
+.left-nav ul li:last-child {
+  background: #000;
+  width: 315px;
+  height: 76px;
+  margin: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -1rem;
+}
+
+.prog {
+  color: #EEE !important;
+  font-size: 24px !important;
+}
+
+.vetor1 {
+  margin-left: 12em;
+}
+
+.meses-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.meses {
+  background: url(../assets/vetor2.png) no-repeat;
+  display: flex;
+  width: 297px;
+  height: 507px;
+  justify-content: flex-end;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 4rem;
+}
+
+.meses ul li {
+  color: #000;
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 150%;
+  letter-spacing: -0.264px;
+  padding-bottom: 1rem;
+}
+
+.places {
+  display: flex;
+  padding: 5rem 0.5rem;
+  gap: 1em;
+}
+
+.places ul li {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 94%;
+  letter-spacing: -0.19px;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.festival,
+.centro {
+  display: flex;
+  flex-direction: column;
+  width: 727px;
+  height: 1044px;
+  align-items: center;
+}
+
+.centro {
+  background-color: #000;
+}
+
+.fest {
+  display: flex;
+  flex-direction: column;
+  width: 467px;
+  align-items: center;
+}
+
+.festival h1,
+.centro h1 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 122%;
+  letter-spacing: -0.66px;
+}
+
+.festival p {
+  display: flex;
+  width: 447px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 139%;
+  letter-spacing: 1.08px;
+}
+
+.festival p:last-child {
+  font-weight: 700;
+}
+
+.div-link {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 1rem;
+  padding-left: 15rem;
+}
+
+.fest-link {
+  display: flex;
+  align-items: center;
+  justify-self: flex-start;
+  text-transform: uppercase;
+  gap: 0.5em;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 94%;
+  letter-spacing: 1.08px;
+}
+
+.centro-img {
+  margin-top: -3rem;
+}
+
+.centro h1 {
+  display: flex;
+  width: 419px;
+  height: 280px;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  text-overflow: ellipsis;
+  font-family: Montserrat;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 118%;
+  letter-spacing: -0.88px;
+  text-transform: capitalize;
+}
+
+.centro p {
+  width: 467px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 26px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 134%;
+  letter-spacing: 1.04px;
+}
+
+.centro-a {
+  color: #EEE;
+}
+
+.idealizar {
+  width: 727px;
+  height: 643px;
+}
+
+.foto {
+  background-color: #000;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+}
+
+.idealizar img:first-child {
+  display: flex;
+  align-self: flex-start;
+  padding-left: 5rem;
+}
+
+.idealizar p {
+  display: flex;
+  width: 442px;
+  height: 297px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 146%;
+  letter-spacing: 1.8px;
+}
+
+.idealizar img:last-child {
+  display: flex;
+  align-self: flex-end;
+  padding-right: 8rem;
+}
+
+.idealizar .left-aligned {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  align-items: flex-start;
+  padding-left: 5rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+h4 {
+  color: #000;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 146%;
+  letter-spacing: 2.07px;
+  text-transform: uppercase;
+  margin-right: 20rem;
+  padding-top: 5rem
+}
+
+#p2 {
+  color: #000;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 146%;
+  letter-spacing: 1.98px;
+  margin-top: -2rem;
+  padding-right: 1rem;
+}
+
+
+footer {
+  display: flex;
+  background-color: #000;
+  flex-direction: column;
+  width: 100%;
+  height: 432px;
+}
+
+.news {
+  display: flex;
+  width: 900px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15rem;
+}
+
+.email {
+  display: flex;
+  margin-left: 15rem;
+}
+
+input {
+  border-bottom: 2px solid #FFF;
+  width: 406px;
+  background-color: transparent;
+
+}
+
+input::placeholder {
+  color: #FFF;
+  font-family: "Gill Sans Nova";
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 146%;
+  /* 32.12px */
+  letter-spacing: 1.98px;
+
+}
+
+button {
+  border: none;
+  outline: none;
+  background: #FFF;
+  width: 116px;
+  height: 48px;
+  color: #000;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 146%;
+  letter-spacing: 2.25px;
+}
+
+.logo-footer{
+  margin-top: 5rem;
+}
+
+.copyrigth{
+  width: 100%;
+height: 87px;
+background: #000;
+}
+
+.copyrigth p{
+  text-align: center;
+  color: #FFF;
+font-size: 16px;
+font-style: italic;
+font-weight: 400;
+line-height: normal;
+}
+
+@media screen and (max-width: 430px) {
+  .header-container {
+    background-size: contain;
+    height: 195px;
+  }
+
+  .logo-header {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    width: 250px;
+  }
+
+  .vetor1 {
+    display: none;
+  }
+
+  .navigation {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .meses {
+    background: none;
+    align-items: center;
+  }
+
+  .places {
+    display: flex;
+    flex-direction: column;
+    padding: 2em 0.5rem;
+  }
+
+  .places ul li {
+    padding-bottom: 4em;
+  }
+
+  .ano {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 431px) and (max-width: 768px) {
+  .vetor1 {
+    display: none;
+  }
+
+  .navigation {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .meses-container {
+    margin-top: 2rem;
+  }
+
+  .meses {
+    margin-left: 2rem;
+  }
+
+  .ano {
+    display: none;
+  }
+}
